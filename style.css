@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background: url("./Images/360_F_Dragon.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding: 0;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(233, 208, 174);
+    background-color: #1e1e1e;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+#main-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#fog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.7;
+    z-index: 1;
+}
+
+header {
+    position: relative;
+    font-size: 29px;
+    z-index: 2;
+    color: rgb(224, 135, 11);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+p {
+    font-size: 38px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+li{
+    font-size: 25px;
+    list-style: none;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: .1rem;
+}
+button {
+    background-color:rgb(224, 135, 11) ;
+    color: #fbfafab0;
+    font-family: "Bebas Neue", serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3d3d3b;
+}
